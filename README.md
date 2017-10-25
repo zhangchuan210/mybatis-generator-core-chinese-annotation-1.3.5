@@ -51,4 +51,4 @@ maven工程的打包，执行命令：clean install ，加入到本地仓库,生
 9.删除ibatis2内容，并删除CaseInsensitiveLikePlugin插件（这个插件用来在XXXExample类中生成大小写敏感的LIKE方法插件本身用处不大，但是我们可以通过这个插件学习给XXXExample类添加额外的方法）），因为引用了ibatis2
 <br>
 10.DAO 后缀改为Mapper<br>
-11.去掉getter setter 注释<br>
+11.去掉getter setter 注释<br> 
