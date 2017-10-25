@@ -2,6 +2,7 @@
 # mybatis-generator-core-chinese-annotation（已删除ibatis2内容）
 ## 介绍
 拷于https://github.com/orange1438/mybatis-generator-core-chinese-annotation-1.3.5 
+<br>
 该项目是mybatis-generator-core 1.3.5 进行自定义注解生成的修改，
 <a target=_blank href="https://github.com/mybatis/generator/releases">mybatis-generator-core 1.3.5官方下载地址</a>，
 主要添加中文注释信息，详细修改内容如下：<br>
