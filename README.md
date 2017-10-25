@@ -12,7 +12,7 @@
 4.增删改查条件的注释信息<br>
 <br>
 ## 使用方式
-maven工程的打包，执行命令：clean install ，加入到本地仓库,生成“1.3.5-chinese-annotation-by-orange1438”包名
+maven工程的打包，执行命令：clean install ，加入到本地仓库,生成“mybatis-generator-core-1.3.5-chinese-annotation.jar”
 <br>
 
 ## 源码剖析说明
@@ -49,6 +49,6 @@ maven工程的打包，执行命令：clean install ，加入到本地仓库,生
 7.增加MapperPlugin：Mapper层有大量生成的重复方法，所以增加了统一继承IMapper接口实现<br>
 8.为IMapper接口加入批量插入数据的方法<br>
 9.删除ibatis2内容，并删除CaseInsensitiveLikePlugin插件（这个插件用来在XXXExample类中生成大小写敏感的LIKE方法插件本身用处不大，但是我们可以通过这个插件学习给XXXExample类添加额外的方法）），因为引用了ibatis2
-
-10.DAO 后缀改为Mapper
-11.去掉getter setter 注释
+<br>
+10.DAO 后缀改为Mapper<br>
+11.去掉getter setter 注释<br>
