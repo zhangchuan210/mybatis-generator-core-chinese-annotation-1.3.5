@@ -410,7 +410,8 @@ public class DefaultCommentGenerator implements CommentGenerator {
     public void addGetterComment(Method method,
                                  IntrospectedTable introspectedTable,
                                  IntrospectedColumn introspectedColumn) {
-        if (suppressAllComments) {
+        //if (suppressAllComments) {
+        if (true) {
             return;
         }
         method.setFinal(addMethodFinal);
@@ -451,7 +452,8 @@ public class DefaultCommentGenerator implements CommentGenerator {
     public void addSetterComment(Method method,
                                  IntrospectedTable introspectedTable,
                                  IntrospectedColumn introspectedColumn) {
-        if (suppressAllComments) {
+        //if (suppressAllComments) {
+        if (true) {
             return;
         }
 
